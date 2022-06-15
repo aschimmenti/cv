@@ -60,6 +60,68 @@ body {
   z-index: 15;
 }
 
+#text-on-top {
+  text-align: center;
+  display: block;
+  position: relative;
+  width: 30vw;
+  height: 20vw;
+  margin: 10vw 10vw 5vw 5vw;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  #text-on-top {
+    width: 60vw;
+    height: 40vw;
+    margin: 20vw 20vw 10vw 10vw;
+    padding-top: 0vw;
+  }
+}
+
+
+#to_about {
+  all: unset;
+}
+
+#text-on-top p {
+  line-height: 100%;
+  font-weight: lighter;
+  padding: 2.5vw;
+  width: 100%;
+  height: 100%;
+  font-size: 5vw;
+  color: transparent;
+  transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  #text-on-top p {
+    margin: auto;
+    padding: 5vw;
+    width: 100%;
+    height: 100%;
+    font-size: 10vw;
+    color: white;
+  }
+}
+
+#text-on-top p:hover {
+  color: white;
+  transition: all .8s ease;
+  -webkit-transition: all .8s ease;
+}
+
+
+#text-on-top a {
+  margin: 0;
+  text-decoration: none;
+  text-shadow: 5px 5px 10px grey;
+  cursor: pointer;
+}
+
+
 #circle {
   overflow: hidden;
   -webkit-animation-name: rotate;
