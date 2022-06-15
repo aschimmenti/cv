@@ -196,3 +196,7 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.cv-presentation {
+  font: "Playfair+Display";
+}
