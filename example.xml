@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
+<?xml version="1.0"?>
+<dcx:descriptionSet
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcx="http://purl.org/dc/xml/">
+  <dcx:description>
     <dc:title>La testa perduta di Damasceno Monteiro</dc:title>
     <dc:creator>Antonio Tabucchi</dc:creator>
     <dc:subject>Thriller</dc:subject>
@@ -11,4 +13,5 @@
     <dc:format>Novel</dc:format>
     <dc:identifier>ISBN-10:8807880512</dc:identifier>
     <dc:language>Italian</dc:language>
-</metadata>
+  </dcx:description>
+</dcx:descriptionSet>
